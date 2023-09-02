@@ -6,8 +6,8 @@ class BookList extends Component {
       <div className='book-list'>
         <ul>
             <li>The way of man is wicked</li>
-            <li></li>
-            <li></li>
+            <li>Wicked Lagos</li>
+            <li>Peace of Mind</li>
         </ul>
       </div>
     )
