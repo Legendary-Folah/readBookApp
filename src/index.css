@@ -19,6 +19,16 @@ nav {
   border: 2px solid black;
 }
 
+nav ul {
+  padding: 0;
+  border: 2px solid black;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
 
 
 
