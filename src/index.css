@@ -8,7 +8,7 @@ body {
 }
 
 .App {
-  margin: 30px auto;
+  margin: 20px auto;
   max-width: 450px;
   text-align: center;
   border: 1px solid black;
@@ -31,7 +31,11 @@ nav ul li {
   margin: 0 20px;
 }
 
-
+.book-list {
+  padding: 25px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
 
 
 
