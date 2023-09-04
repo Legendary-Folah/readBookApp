@@ -45,7 +45,12 @@ nav ul li {
 
 .book-list li {
   padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid black;
 }
+
+
 
 
 
