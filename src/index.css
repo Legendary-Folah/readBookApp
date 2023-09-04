@@ -14,7 +14,10 @@ body {
   border: 1px solid black;
 }
 
-
+nav {
+  padding: 5px;
+  border: 2px solid black;
+}
 
 
 
