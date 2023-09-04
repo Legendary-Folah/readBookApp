@@ -5,7 +5,7 @@ class NavBar extends Component {
     return (
       <div>
         <nav>
-            <h1>Context App</h1>
+            <h1>READING BOOK LIST</h1>
             <ul>
                 <li>Home</li>
                 <li>About</li>
