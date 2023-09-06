@@ -1,7 +1,8 @@
 import React, {Component} from "react";
+import { ThemeContext } from "../Contexts/ThemeContext";
 
 class ThemeToggle extends Component {
-    static 
+    static contextType = ThemeContext;
     render() { 
         return ();
     }
