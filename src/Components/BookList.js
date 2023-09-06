@@ -5,9 +5,13 @@ class BookList extends Component {
   static contextType = ThemeContext;
   render() {
     const { isLightTheme, light, dark } = this.context;
+    const theme = isLightTheme ? light : dark;
     return (
       <div className='book-list'>
-        <ul>
+        <ul style={{
+          background: theme.ui,
+          color: theme.syntax
+        }}>
             <li>The way of man is wicked</li>
             <li>Wicked Lagos</li>
             <li>Peace of Mind</li>
