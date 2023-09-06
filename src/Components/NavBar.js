@@ -3,10 +3,10 @@ import { ThemeContext } from '../Contexts/ThemeContext';
 
 class NavBar extends Component {
   render() {
-    const { isLightTheme, light, dark } = this.context;
-    const theme = isLightTheme ? light : dark;
     return (
         <ThemeContext.Consumer>{(context) => {
+          const { isLightTheme, light, dark } = context;
+          const theme = isLightTheme ? light : dark;
           return (
             <nav style={{ 
               background: theme.ui,
