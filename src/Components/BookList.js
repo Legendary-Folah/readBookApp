@@ -9,7 +9,7 @@ class BookList extends Component {
     return (
       <div className='book-list'>
         <ul style={{
-          background: theme.ui,
+          background: theme.bg,
           color: theme.syntax
         }}>
             <li>The way of man is wicked</li>
