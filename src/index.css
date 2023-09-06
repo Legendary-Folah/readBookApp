@@ -11,19 +11,15 @@ body {
   margin: 20px auto;
   max-width: 450px;
   text-align: center;
-  border: 2px solid black;
 }
 
 nav {
-  padding: 5px;
-  border: 2px solid black;
   font-size: 20px;
   font-family: monospace;
 }
 
 nav ul {
   padding: 0;
-  border: 2px solid black;
 }
 
 nav ul li {
@@ -34,7 +30,6 @@ nav ul li {
 .book-list {
   padding: 25px;
   margin-bottom: 20px;
-  border: 2px solid black;
   font-size: 20px;
   font-family: monospace;
 }
@@ -42,14 +37,12 @@ nav ul li {
 .book-list ul {
   padding: 0;
   list-style-type: none;
-  border: 2px solid black;
 }
 
 .book-list li {
   padding: 10px;
   margin: 10px auto;
   border-radius: 10px;
-  border: 2px solid black;
 }
 
 

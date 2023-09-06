@@ -12,9 +12,9 @@ class BookList extends Component {
           background: theme.bg,
           color: theme.syntax
         }}>
-            <li>The way of man is wicked</li>
-            <li>Wicked Lagos</li>
-            <li>Peace of Mind</li>
+            <li style={{ background: theme.ui }}>The way of man is wicked</li>
+            <li style={{ background: theme.ui }}>Wicked Lagos</li>
+            <li style={{ background: theme.ui }}>Peace of Mind</li>
         </ul>
       </div>
     )
