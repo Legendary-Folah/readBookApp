@@ -6,7 +6,6 @@ class NavBar extends Component {
     const { isLightTheme, light, dark } = this.context;
     const theme = isLightTheme ? light : dark;
     return (
-      <div>
         <nav style={{ 
           background: theme.ui,
           color: theme.syntax
@@ -18,7 +17,6 @@ class NavBar extends Component {
                 <li>List</li>
             </ul>
         </nav>
-      </div>
     )
   }
 };
