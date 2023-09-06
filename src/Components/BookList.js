@@ -13,6 +13,6 @@ class BookList extends Component {
       </div>
     )
   }
-}
+};
 
 export default BookList;
