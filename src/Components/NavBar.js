@@ -5,6 +5,7 @@ class NavBar extends Component {
   static contextType = ThemeContext;
   render() {
     console.log(this.context);
+    const { isLightTheme, light, dark } = this.context;
     return (
       <div>
         <nav>
