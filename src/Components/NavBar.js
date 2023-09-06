@@ -3,7 +3,6 @@ import { ThemeContext } from '../Contexts/ThemeContext';
 
 class NavBar extends Component {
   render() {
-    console.log(this.context);
     const { isLightTheme, light, dark } = this.context;
     const theme = isLightTheme ? light : dark;
     return (
