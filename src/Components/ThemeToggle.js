@@ -4,7 +4,9 @@ import { ThemeContext } from "../Contexts/ThemeContext";
 class ThemeToggle extends Component {
     static contextType = ThemeContext;
     render() { 
-        return ();
+        return (
+            <button onClick={}>Toggle</button>
+        );
     }
 }
  
