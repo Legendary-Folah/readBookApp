@@ -5,7 +5,7 @@ class Slider extends Component {
     return (
       <div class="theme-switch-container">
         <label class="theme-slider" for="checkbox">
-          <input type="checkbox" id="checkbox" />
+          <input type='checkbox' id="checkbox"/>
           <div class="round slider"></div>
         </label>
       </div>
