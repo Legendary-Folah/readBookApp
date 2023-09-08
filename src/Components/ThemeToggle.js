@@ -9,7 +9,7 @@ class ThemeToggle extends Component {
         return (
             <div>
                 <button onClick={toggleTheme}>
-                    <Slider />
+                    Toggle
                 </button>
             </div>
         );
