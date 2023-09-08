@@ -7,7 +7,10 @@ class ThemeToggle extends Component {
     render() { 
         const { toggleTheme } = this.context
         return (
-            <Slider onChange={toggleTheme}></Slider>
+            <button onClick={toggleTheme}>
+                <Slider></Slider>
+            </button>
+            
         );
     }
 }
