@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import { ThemeContext } from '../Contexts/ThemeContext';
+import { AuthContext } from '../Contexts/AuthContext';
 
 class NavBar extends Component {
   render() {
     return (
+      <AuthContext.Consumer>{(authcontext) => (
         <ThemeContext.Consumer>
-          {(context) => {
-            const { isLightTheme, light, dark } = context;
+          {(themecontext) => {
+            const { isAuthenticated, toggleAuth } = authcontext;
+            const { isLightTheme, light, dark } = themecontext;
             const theme = isLightTheme ? light : dark;
             return (
               <nav style={{ 
@@ -14,6 +17,9 @@ class NavBar extends Component {
                 color: theme.syntax
                }}>
                   <h1>READING BOOK LIST</h1>
+                  <div onClick={toggleAuth}>
+                    {isAuthenticated ? 'Logged In' : 'Logged Out'}
+                  </div>
                   <ul>
                       <li>Home</li>
                       <li>About</li>
@@ -23,6 +29,8 @@ class NavBar extends Component {
             )
           }}
         </ThemeContext.Consumer>
+      )}  
+      </AuthContext.Consumer>
     )
   }
 };
