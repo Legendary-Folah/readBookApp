@@ -5,9 +5,11 @@ import NavBar from "./Components/NavBar";
 
 function App() {
   return (
-    <BookContextProvider>
-      <NavBar />
-    </BookContextProvider>
+    <div className="App">
+      <BookContextProvider>
+        <NavBar />
+      </BookContextProvider>
+    </div>
   );
 }
 
