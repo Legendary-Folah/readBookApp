@@ -8,98 +8,23 @@ body {
 }
 
 .App {
-  margin: 30px auto;
-  max-width: 450px;
+  background: purple;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: whitesmoke;
+}
+
+.navbar {
+  padding: 10px 20px;
   text-align: center;
+  background: #6d3d6d;
+  color: whitesmoke;
 }
 
-nav {
-  font-size: 20px;
-  font-family: monospace;
-  padding: 10px;
+.navbar h1 {
+  margin: 10px 0;
 }
-
-nav ul {
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-.book-list {
-  padding: 25px;
-  margin-bottom: 30px;
-  font-size: 20px;
-  font-family: monospace;
-}
-
-.book-list ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-.book-list li {
-  padding: 10px;
-  margin: 10px auto;
-  border-radius: 10px;
-}
-
-.theme-switch-container {
-  display: flex;
-  align-items: center;
-}
-
-.theme-slider {
-  display: inline-block;
-  height: 34px;
-  position: relative;
-  width: 60px;
-}
-
-.theme-slider input {
-  display: none;
-}
-
-.slider {
-  background-color: #ccc;
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: .4s;
-}
-
-.slider:before {
-  background-color: #fff;
-  bottom: 4px;
-  content: "";
-  height: 26px;
-  left: 4px;
-  position: absolute;
-  transition: .4s;
-  width: 26px;
-}
-
-input:checked+.slider {
-  background-color: #555;
-}
-
-input:checked+.slider:before {
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
 
 
 
