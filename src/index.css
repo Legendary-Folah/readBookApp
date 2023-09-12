@@ -9,10 +9,11 @@ body {
 
 .App {
   background: purple;
-  margin: 20px auto;
+  margin: 25px auto;
   width: 90%;
   max-width: 700px;
-  color: whitesmoke;
+  color: #eee;
+  font-family: monospace;
 }
 
 .navbar {
