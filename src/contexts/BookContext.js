@@ -3,7 +3,7 @@ import { uuidv1 } from 'uuid';
 
 export const BookContext = createContext();
 
-const BookContextprovider = (props) => {
+const BookContextProvider = (props) => {
 
     const [ books, setBooks ] = useState([
         {title: 'Man of the year', author: 'Nicolas Amiri', id: 1},
@@ -26,4 +26,4 @@ const BookContextprovider = (props) => {
     );
 }
  
-export default BookContextprovider;
+export default BookContextProvider;
