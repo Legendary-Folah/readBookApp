@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { BookContext } from "../Contexts/BookContext";
 
-const BookDetail = ( book ) => {
+const BookDetail = ( {book} ) => {
     const { removeBook } = useContext(BookContext);
     return (
         <li onClick={() => removeBook(book.id)}>
