@@ -14,18 +14,21 @@ body {
   max-width: 700px;
   color: #eee;
   font-family: monospace;
+  border-radius: 2px;
 }
 
 .navbar {
-  padding: 10px 20px;
+  padding: 30px 20px;
   text-align: center;
   background: #6d3d6d;
   color: whitesmoke;
 }
 
 .navbar h1 {
-  margin: 10px 0;
+  margin: 10px 10px;
 }
+
+
 
 
 
