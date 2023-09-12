@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react';
+import { uuidv1 } from 'uuid';
 
 export const BookContext = createContext();
 
@@ -9,6 +10,10 @@ const BookContextprovider = (props) => {
         {title: 'Name of the Wind', author: 'Cody Anderson', id: 2},
         {title: 'One Last Ride', author: 'Fury Micheal', id: 3}
     ]);
+
+    const addBook = (title, author) => {
+        setBooks([...books, {title, author, id: uuidv1() }]);
+    };
 
     return (
         <BookContext.Provider>
