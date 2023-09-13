@@ -109,7 +109,12 @@ input[type='submit'] {
   padding: 6px 20px;
   display: block;
   cursor: pointer;
+  border-radius: 4px;
 }
+
+
+
+
 
 
 
