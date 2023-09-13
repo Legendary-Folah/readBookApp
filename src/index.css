@@ -46,6 +46,11 @@ body {
   cursor: pointer;
 }
 
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
 
 
 
