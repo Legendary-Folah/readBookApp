@@ -7,7 +7,7 @@ const BookDetail = ({book}) => {
     const { removeBook } = useContext(BookContext);
     return (
         <li>
-            <div>
+            <div className="list">
                 <div className="title">
                     { book.title }
                 </div>
@@ -15,9 +15,10 @@ const BookDetail = ({book}) => {
                     { book.author }
                 </div>
             </div>
-            <button className='button' onClick={() => removeBook(book.id)}>
-                <FontAwesomeIcon icon={faTrash} />
-            </button>
+            <FontAwesomeIcon 
+                onClick={() => removeBook(book.id)}
+                icon={faTrash} 
+            />
         </li>
     );
 }
