@@ -21,6 +21,7 @@ const NewBookForm = () => {
                 onChange={e => setAuthor(e.target.value)} 
                 required
             />
+            <input type="submit" value='Add Book' />
         </form>
     );
 }
