@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const BookDetail = ({book}) => {
-    const { removeBook } = useContext(BookContext);
+    const { dispatch } = useContext(BookContext);
     return (
         <li className="list">
             <div>
@@ -16,7 +16,7 @@ const BookDetail = ({book}) => {
                 </div>
             </div>
             <FontAwesomeIcon 
-                onClick={() => removeBook(book.id)}
+                onClick={() => dispatch({type: removeBook, id: book.id})}
                 icon={faTrash} 
             />
         </li>
