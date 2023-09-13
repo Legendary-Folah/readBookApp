@@ -5,8 +5,14 @@ const NewBookForm = () => {
     const { addBook } = useContext(BookContext);
     const [ title, setTitle ] = useState('');
     const [ author, setAuthor ] = useState('');
+    const handleSUbmit = e => {
+        e.preventDefault();
+        addBook(title, author)
+        setTitle('');
+        setAuthor('');
+    }
     return (
-        <form>
+        <form onSubmit={handleSUbmit}>
             <input 
                 type="text" 
                 placeholder="Book Title" 

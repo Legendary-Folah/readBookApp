@@ -60,6 +60,7 @@ body {
   font-style: italic;
 }
 
+/* Folarin remember this code for x axis */
 .list {
   display: flex;
   justify-content: space-between;
