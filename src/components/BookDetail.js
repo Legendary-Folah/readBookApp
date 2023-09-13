@@ -6,14 +6,16 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 const BookDetail = ({book}) => {
     const { removeBook } = useContext(BookContext);
     return (
-        <li onClick={() => removeBook(book.id)}>
-            <div className="title">
-                { book.title }
+        <li>
+            <div>
+                <div className="title">
+                    { book.title }
+                </div>
+                <div className="author">
+                    { book.author }
+                </div>
             </div>
-            <div className="author">
-                { book.author }
-            </div>
-            <button>
+            <button className='button' onClick={() => removeBook(book.id)}>
                 <FontAwesomeIcon icon={faTrash} />
             </button>
         </li>

@@ -51,6 +51,11 @@ body {
   text-decoration: line-through;
 }
 
+.button:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
 
 
 
