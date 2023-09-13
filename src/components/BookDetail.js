@@ -16,7 +16,7 @@ const BookDetail = ({book}) => {
                 </div>
             </div>
             <FontAwesomeIcon 
-                onClick={() => dispatch({type: removeBook, id: book.id})}
+                onClick={() => dispatch({type: 'REMOVE_BOOK', id: book.id})}
                 icon={faTrash} 
             />
         </li>
