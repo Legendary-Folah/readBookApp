@@ -61,7 +61,15 @@ body {
 }
 
 .list {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px 0;
+  height: 58px;
+  border-bottom: 1px solid whitesmoke;
+  font-weight: bold;
+  font-size: 15px;
+  color: whitesmoke;
 }
 
 .book-list .title {
