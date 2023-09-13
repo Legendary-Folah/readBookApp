@@ -66,9 +66,19 @@ body {
 
 .book-list .title {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
+.book-list .author {
+  font-size: 0.9em;
+}
+
+.empty {
+  margin: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px 5px;
+}
 
 
 
