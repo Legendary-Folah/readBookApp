@@ -11,7 +11,7 @@ const BookList = () => {
                 return (
                     <BookDetail book={book} key={book.id} />
                 )
-            }) }
+            })}
         </ul>
     </div>
   ) : (
