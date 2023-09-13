@@ -6,8 +6,8 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 const BookDetail = ({book}) => {
     const { removeBook } = useContext(BookContext);
     return (
-        <li>
-            <div className="list">
+        <li className="list">
+            <div>
                 <div className="title">
                     { book.title }
                 </div>
