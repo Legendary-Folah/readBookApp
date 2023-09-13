@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+Just before the Set up, I just want to give an into for this simple project. This is a simple reading App which was also used as a learning process for me to understand context in a more detailed work. The simple reading list App involves using Hooks (useState, useEffect, useReducer) and context. The design isn't mine but i had to tweak just a little because i'm a fan of unique UI. The project also involves using local storage to save data and being able to get the data back and display on UI. That is pretty much it.
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
